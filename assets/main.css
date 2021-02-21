@@ -50,9 +50,108 @@ table {
 
 /* -------------------------------- */
 
+/* Box sizing & Clearfix */
+
+* {
+	box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* Header */
 
+header {
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	padding: 15px;
+	border: 1px solid black;
+}
 .google-logo {
-	width: 92px;
-	height: 30px;
+	display: block;
+	width: 100px;
+	height: 35px;
+	aspect-ratio: auto 92 / 30;
+	float: left;
+	margin: 5px 0 0 10px;
+	border: 1px solid black;
+}
+input {
+	width: 692px;
+	height: 46px;
+	margin: 0 200px 0 50px;
+	border-radius: 50px;
+}
+.googleApps {
+	height: 24px;
+	width: 24px;
+	float: right;
+	margin: 8px 20px 5px 5px; 
+	background-color: blue;
+	border: 1px solid black;
+}
+.myAccount {
+	height: 32px;
+	width: 32px;
+	float: right;
+	margin: 5px 20px 5px 5px; 
+	background-color: red;
+	border: 1px solid black;
+}
+
+/* Navigation */
+
+nav {
+	padding-top: 65px;
+	width: 100%;
+	border: 1px solid black;
+}
+.left-navigation li {
+	float: left;
+}
+.right-navigation li {
+	float: right;
+}
+
+/* Main */
+
+main {
+	margin: 0 500px 0 200px;
+}
+
+/* Footer */
+
+.location {
+	background-color: #e2e2e2;
+	overflow: hidden;
+	width: 100%;
+	line-height: 40px;
+	border-top: 1px solid #b9b9b9;
+	padding-left: 200px;
+}
+.country {
+	float: left;
+}
+.region {
+	display: inline-block;
+	float: left;
+}
+.footer-options a {
+	display: inline-block;
+	float: left;
+	padding-left: 27px;
+}
+.footer-options {
+	background-color: #e2e2e2;
+	overflow: hidden;
+	width: 100%;
+	line-height: 40px;
+	border-top: 1px solid #b9b9b9;
+	margin-left: -27px;
+	padding-left: 200px;
 }
