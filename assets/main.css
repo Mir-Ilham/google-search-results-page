@@ -50,6 +50,15 @@ table {
 
 /* -------------------------------- */
 
+/* Universal styles */
+
+body {
+	font: 14px arial, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
 /* Box sizing & Clearfix */
 
 * {
@@ -107,21 +116,53 @@ input {
 /* Navigation */
 
 nav {
-	padding-top: 65px;
+	padding:  50px 480px 0 145px;
 	width: 100%;
 	border: 1px solid black;
+	font: 13px arial,sans-serif;
 }
 .left-navigation li {
 	float: left;
+	padding: 8px 14px 8px 16px;
+	border: 1px solid black;
 }
 .right-navigation li {
 	float: right;
+	padding: 8px 14px 8px 16px;
+	border: 1px solid black;
 }
 
 /* Main */
 
 main {
 	margin: 0 500px 0 200px;
+}
+.stats {
+	color: #70757a;
+	margin: 15px 0;
+}
+.search-results {
+	margin: 12px 0 35px 0;
+}
+.search-results h5 {
+	font: 14px arial, sans-serif;
+	color: #5f6368;
+	margin: 0 0 3px;
+	padding: 4px 0 0;
+}
+.search-results h5 bold {
+	color: #202124;
+}
+.search-results h2 {
+	margin: 0 0 3px;
+	padding: 4px 0 0;
+	font-size: 20px;
+	font-weight: normal;
+}
+.search-results p {
+	margin: 0 0 3px;
+	padding: 4px 0 0;
+	color: #4d5156;
 }
 
 /* Footer */
