@@ -261,11 +261,41 @@ main {
 	font-size: 12px;
 	color: #70757a;
 }
+.feedback:hover {
+	text-decoration: underline;
+}
 
 /* People also search for */
 
 .reco-container {
 	display: flex;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+.reco-item {
+	border: 1px solid #bfbfbf;
+	border-radius: 8px;
+}
+.img-box {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+.img-box img {
+	width: 95px;
+	height: auto;
+}
+.img-vertical-center {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.item-name {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.item-name a:hover {
+	text-decoration: underline;
 }
 
 /* Footer */
