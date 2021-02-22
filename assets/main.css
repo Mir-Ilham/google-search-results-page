@@ -58,6 +58,12 @@ body {
 a {
 	text-decoration: none;
 }
+h3 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.3em;
+	color: #202124;
+}
 
 /* Box sizing & Clearfix */
 
@@ -163,6 +169,60 @@ main {
 	margin: 0 0 3px;
 	padding: 4px 0 0;
 	color: #4d5156;
+}
+
+/* Video section */
+
+.video-part {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 0;
+}
+.video-border {
+	border-top: 1px solid #d5d9ed;
+	border-bottom: 1px solid #d5d9ed;
+}
+.video-part:hover {
+	background-color: rgba(152, 215, 235, 0.1);
+}
+.video-part img {
+	width: 124px;
+	height: 70px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 20px;
+}
+.video-title {
+	float: left;
+	font: 16px arial, sans-serif;
+	color: #1a0dab;
+	margin-bottom: 15px;
+}
+.video-info {
+	display: inline-block;
+	width: 75%;
+}
+.youtube {
+	color: #202124;
+}
+.channel {
+	color: #70757a;
+}
+.video-date {
+	color: #70757a;
+	display: block;
+	margin-top: 3px;
+}
+.view-all-vid {
+	display: inline-block;
+	width: 50%;
+	padding: 7px 11px;
+	text-align: center;
+	color: #1a0dab;
+	border: 1px solid #bfbfbf;
+	border-radius: 20px;
+	margin: 0 25%;
+	cursor: pointer;
 }
 
 /* Footer */
