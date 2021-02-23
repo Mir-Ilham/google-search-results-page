@@ -362,32 +362,46 @@ main {
 
 /* Footer */
 
-.location {
-	background-color: #e2e2e2;
+.location-background {
+	background-color: #f2f2f2;
 	overflow: hidden;
 	width: 100%;
 	line-height: 40px;
 	border-top: 1px solid #b9b9b9;
-	padding-left: 200px;
+}
+.location {
+	margin: 0 0 0 200px;
 }
 .country {
 	float: left;
+	font-size: 15px;
+	color: #70757a;
+	padding: 0 18px 0 0;
+	border-right: 1px solid #bfbfbf;
+}
+.region-box {
+	display: inline-block;
+	float: left;
+	color: #70757a;
+	padding: 0 0 0 18px;
 }
 .region {
-	display: inline-block;
-	float: left;
+	color: #3c4043;
+	font-weight: bold;
 }
-.footer-options a {
-	display: inline-block;
-	float: left;
-	padding-left: 27px;
-}
-.footer-options {
-	background-color: #e2e2e2;
+.footer-options-background {
+	background-color: #f2f2f2;
 	overflow: hidden;
 	width: 100%;
 	line-height: 40px;
 	border-top: 1px solid #b9b9b9;
-	margin-left: -27px;
-	padding-left: 200px;
+}
+.footer-options {
+	margin: 0 0 0 173px;
+}
+.footer-options a {
+	display: inline-block;
+	padding: 0 0 0 27px;
+	color: #70757a;
+	float: left;
 }
